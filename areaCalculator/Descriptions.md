@@ -18,7 +18,8 @@ The triangle modules has one super class and one sub class. The super class tria
 
   area = sqrt(p*(p-a)*(p-b)*(p-c))
 
-The subclass triangle_with_height refers to a special case where one extra variable height is given for the calculation. It takes the initialization from its parent class triangle for other variables (a,b,c). The user is then required to chose to which side is the height perpendicular to. The area is then calculated as: height * side /2
+  The subclass triangle_with_height refers to a special case where one extra variable height is given for the calculation. It takes the   initialization from its parent class triangle for other variables (a,b,c). The user is then required to chose to which side is the 
+  height perpendicular to. The area is then calculated as: height * side /2
 
 - Regular polygon:
 The regular polygon module has similar structure to the rectangle module except that the user is required to provide the length and number of sides. The area is calculated using the formula (num_sides*length**2/(4*tan(pi/self.num_sides).
