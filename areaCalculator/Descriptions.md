@@ -14,9 +14,9 @@ The trapezoid module has similar structure to the rectangle module except that t
 - Triangle:
 The triangle modules has one super class and one sub class. The super class triangle calculates the area of any triangle given the length of each side (a,b,c). The structure of the super is similar to the above modules. The area is calculated using the following formulas:
 
-p = (a + b + c)/2
+  p = (a + b + c)/2
 
-area = sqrt(p*(p-a)*(p-b)*(p-c))
+  area = sqrt(p*(p-a)*(p-b)*(p-c))
 
 The subclass triangle_with_height refers to a special case where one extra variable height is given for the calculation. It takes the initialization from its parent class triangle for other variables (a,b,c). The user is then required to chose to which side is the height perpendicular to. The area is then calculated as: height * side /2
 
